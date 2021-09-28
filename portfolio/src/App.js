@@ -1,22 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NavBar from "./nav-bar/NavBar.js";
+import Homepage from "./pages/Homepage.js";
+import Files from "./pages/Files.js";
+import newFile from './pages/newFile';
+import Settings from "./pages/Settings.js";
+import Error from "./pages/Error";
 
 function App() {
-
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <header className="App-header">
+    <BrowserRouter>
       <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-      </header>
-    </div>
+        <NavBar />
+        <Switch>
+          <Route path="/homepage" component={Homepage} exact/>
+          <Route path="/files" component={Files} />
+          <Route path="/newFile" component={newFile} />
+          <Route path="/settings" component={Settings} />
+          <Route component={Error}/>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
