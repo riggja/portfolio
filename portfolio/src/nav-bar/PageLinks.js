@@ -4,12 +4,12 @@ export const PageLinks = [
         url: '/homepage',
     },
     {
-        title: 'Files',
-        url: '/files',
+        title: 'Resume',
+        url: '/resume',
     },
     {        
-        title: 'newFile',
-        url: '/newFile',
+        title: 'Projects',
+        url: '/projects',
     },
     {        
         title: 'Settings',

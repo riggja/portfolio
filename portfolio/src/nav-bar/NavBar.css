@@ -3,7 +3,8 @@ nav {
     top: 0; 
     left: 0;
     width: 100%; 
-    padding: .75rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     background-color: rgb(16, 235, 34);
 }
 
@@ -20,7 +21,6 @@ a:hover {
 
 li {
     margin-right: 1rem;
-    padding-top: -2rem;
 }
 
 ul#menu li{

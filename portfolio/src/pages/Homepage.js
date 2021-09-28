@@ -7,13 +7,13 @@ class Homepage extends Component {
             <main>
                <section className="App-header">
                     <p>
-                        Hello Goldstream! This is the app.
+                        Hello I am Jason Riggs! This is the app.
                     </p>
                     <a
-                        href="https://github.com/riggja/Goldstream-App"
+                        href="https://github.com/riggja"
                         rel="noreferrer"
                         target="_blank">
-                        Here is the github
+                        Here is my github
                     </a>
                 </section>
             </main>

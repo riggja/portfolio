@@ -24,9 +24,6 @@ class NavBar extends Component {
             </DropdownButton>
             <div>
               <ul id="menu">
-                <li>
-                    <Image width={180} height={60} src="/GEIColored.png" alt="Goldstream Engineering Logo"/>
-                </li>
                 {PageLinks.map((item, index) => {
                     return (
                         <li key={index} className="nav-item">

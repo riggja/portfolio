@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Files extends Component {
+class resume extends Component {
 
     render() {
         return(
             <main>
                <section className="App-header">
                     <h1>
-                        Files:
+                        
                     </h1>          
                 </section>
             </main>
@@ -15,4 +15,4 @@ class Files extends Component {
     }
 }
 
-export default Files
+export default resume
